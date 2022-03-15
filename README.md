@@ -3,7 +3,7 @@ selenium을 사용한 구글 이미지 크롤링
 
 ## 1. Selenium 설치 - Install
 <pre>
-<code>pip install selenium</code> 
+<code>$ pip install selenium</code> 
 </pre>
 
 ## 2. Chrome WebDriver 설치
