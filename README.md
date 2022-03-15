@@ -4,7 +4,7 @@ selenium을 사용한 구글 이미지 크롤링
 ## 1. Selenium 환경 셋팅
 ### 1-1. Selenium 설치 - Install
 <pre>
-<code>$ pip install selenium</code> 
+<code>$ pip3 install selenium</code> 
 </pre>
 vscode Terminal을 통해 selenium 설치
 
@@ -68,7 +68,7 @@ driver.find_element_by_name("q") : q는 검색창, 관련정보는 크롭에서 
 elem.send_keys(search) : 검색할 키워드\
 elem.send_keys(Keys.RETURN) : 엔터키를 입력하는 코드\
 
-### 3-4. 스크롤
+### 3-4. 브라우저 스크롤
 <pre>
 <code>SCROLL_PAUSE_TIME = 1
 
