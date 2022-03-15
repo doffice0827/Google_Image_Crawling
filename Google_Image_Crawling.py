@@ -5,17 +5,16 @@ import urllib.request
 
 search = "Cross driver"
 file_name = "Cross_driver"
-save_path = "D:/협동로봇/Train_Data/"
+save_path = "D:---"
 save_folder = "Cross_driver"
 count_max = 1000
 
-driver = webdriver.Chrome(r"C:/Users/이도걸/Desktop/3학년 2학기/기업R&D프로젝트2/selenium/chromedriver.exe")
+driver = webdriver.Chrome(r"D:---")
 driver.get("https://www.google.co.kr/imghp?hl=ko&tab=wi&authuser=0&ogbl")
 
 elem = driver.find_element_by_name("q")
 elem.send_keys(search)
 elem.send_keys(Keys.RETURN)
-
 
 SCROLL_PAUSE_TIME = 1
 # Get scroll height
